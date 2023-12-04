@@ -1,3 +1,4 @@
 #!/usr/bin/python3
 def no_c(my_string):
-    return(''.join(x for x in my_string if x not in 'Cc'))
+    new_string = my_string.translate({ord(i): None for i in 'cC'})
+    return new_string
