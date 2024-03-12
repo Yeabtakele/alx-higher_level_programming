@@ -1,4 +1,18 @@
 #!/usr/bin/node
-rts = class Rectangle {};
 // Write an empty class Rectangle that defines a rectangle
-module.exports = class Rectangle {};
+class Rectangle {
+	  constructor(width, height) {
+		      this.width = width;
+		      this.height = height;
+		    }
+
+	  getArea() {
+		      return this.width * this.height;
+		    }
+
+	  getPerimeter() {
+		      return 2 * (this.width + this.height);
+		    }
+}
+
+module.exports = Rectangle;
