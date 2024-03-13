@@ -1,5 +1,10 @@
+
 #!/usr/bin/node
-const Mylist = require('./100-data.js').list;
-const NewList = Mylist.map((x, y) => x * y);
-console.log(Mylist);
-console.log(NewList);
+// Create the new list using map
+const list = require('./100-data').list;  
+
+const newList = list.map((value, index) => value * index);  
+
+console.log(list);  
+console.log(newList);  
+
