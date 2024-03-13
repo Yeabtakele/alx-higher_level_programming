@@ -3,10 +3,6 @@
 // Create an empty dictionary for user IDs by occurrence
 // Loop through each key-value pair in the original dictionary
 const dict = require('./101-data.js').dict;
-const NewDict = {};
-const list = [];
-let MyList = [];
-let Newlist = [];
 
 const totalist = Object.entries(dict);
 const vals = Object.values(dict);
