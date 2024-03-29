@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## 0x13. JavaScript - Objects, Scopes and Closures
 JavaScript
 Tasks
@@ -53,3 +54,7 @@ You must use the class notation for defining your class and extends
 The constructor must take 1 argument: size
 The constructor of Rectangle must be called (by using super())
 
+=======
+### 0x13. JavaScript - Objects, Scopes and Closures
+JavaScript
+>>>>>>> 566653babf5d3a52aa85caeb50d9b9c6da0d61bc
