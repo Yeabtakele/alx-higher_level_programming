@@ -1,3 +1,3 @@
 #!/bin/bash
-# Write a Bash script that takes in a URL, sends a GET request to the URL
-curl -sL "$1"
+# Write a Bash script that takes in a URL, for 200 status code responses.
+  curl -sL "$1"
